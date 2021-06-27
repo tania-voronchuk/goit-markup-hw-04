@@ -142,16 +142,17 @@ img {
     padding-bottom: 32px;
     justify-content: center;
     align-items: center;
+    fill: var(--primery-text-color);
 }
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
+    fill: var(--accent-color);
     color: var(--accent-color);
 }
 
 .icon-header {
     margin-right: 10px;
-    fill: var(--primery-text-color);
 }
 
 /* hero */
